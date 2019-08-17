@@ -1,0 +1,145 @@
+body { 
+    width: 100%;
+    height: 100%;
+    font-family: 'Ek Mukta', sans-serif;
+    font-weight: 300;
+    color: #666;
+    background-color: #fff;
+    overflow-x: hidden;
+    padding-top: 60px
+}
+
+/********** Navigation **************/
+.nav.navbar-nav {
+	padding:10px 30px;
+}
+
+.nav-color{
+    background-color: white
+}
+.navbar-fixed-top ul.nav li a {
+	font-size: 14px;
+	letter-spacing: 3px;
+    color: #4b3381;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.navbar-fixed-top ul.nav li a.active{
+    color: #f97a60;
+}
+
+ul.navbar-nav li a:after{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: #f97a60;
+    height: 2px;
+    transition: all .5s;
+}
+
+ul.navbar-nav  li a:hover:after{
+    width: 100%;
+    transition: all .5s;
+}
+
+.navbar-fixed-top .nav li a:hover,
+.navbar-fixed-top .nav li a:focus,
+.navbar-fixed-top.nav li.active {
+    outline: 0;
+    color: #f97a60 ;
+}
+
+.brand {
+	color: #4b3381;	
+	font-size: 30px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+    transition: all .2s;
+}
+
+.brand:hover{
+    color: #f97a60;
+}
+
+.navbar-fixed-top.top-nav-collapse ul.nav li a {
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    color: #fff;
+}
+
+/********** Theam color **************/
+.primary-color{
+    color: #4b3381
+}
+
+.secondary-color{
+    color: #f97a60
+}
+
+.bg-primary-color{
+    background-color: #4b3381
+}
+
+.bg-secondary-color{
+    background-color: #f97a60
+}
+
+/********** Footer **************/
+.copyright {
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 20px
+}
+
+.social-section{
+    position: relative;
+    padding: 20px;
+}
+.social{
+    display: inline-block;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin: 0 15px 0 0; 
+}
+.social-link{
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    font-size: 16px;
+    line-height: 48px;
+    text-align: center;
+    color: #ffffff;
+    background: #111111;
+}
+
+.social-link:hover{
+    background: #4b3381;
+    color: #ffffff;
+}
+
+.clearfix{
+    clear: both;
+}
+
+/* --- logo --- */
+.site-logo {	
+	margin: 10px 0px;
+    width: 60px;
+}
+.logo{
+    margin: 0px 10px;
+}
+
+
